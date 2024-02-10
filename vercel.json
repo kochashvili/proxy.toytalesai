@@ -8,10 +8,10 @@
       "source": "/blog/:match*",
       "destination": "https://blog-toytalesai.vercel.app/"
     },
-    { "source": "/", "destination": "https://toytalesai.com/" },
+    { "source": "/", "destination": "https://toytalesai.vercel.app/" },
     {
       "source": "/:match*",
-      "destination": "https://toytalesai.com/:match*"
+      "destination": "https://toytalesai.vercel.app/:match*"
     }
   ]
 }
